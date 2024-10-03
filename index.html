@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js' integrity='sha512-+k1pnlgt4F1H8L7t3z95o3/KO+o78INEcXTbnoJQ/F2VqDVhWoaiVml/OEHv9HsVgxUaVW+IbiZPUJQfF/YxZw==' crossorigin='anonymous'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.7/axios.js' integrity='sha512-luUnkeG+uabiT2pZdi5ME5uADvq+FpDs2fK5V0nVXrHCND9F077fKaE9W//oJvGnWSmwQmCau63A6s3um1NZmg==' crossorigin='anonymous'></script>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.css' integrity='sha512-8BU3emz11z9iF75b10oPjjpamM4Mz23yQFQymbtwyPN3mNWHxpgeqyrYnkIUP6A8KyAj5k2p3MiYLtYqew7gIw==' crossorigin='anonymous'/>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+   
+</head>
+<body>
+    
+    <div class="wrap" id="wrap">
+        <div class="blackScreen">
+            <a href="#wrap2">Розклади</a>
+            <a href="#wrap3">Хто ми</a>
+            <a href="#">Партнери</a>
+            <a href="#">контакти</a>
+        </div>
+        <header>
+            <a href="#wrap2">Розклади</a>
+            <a href="#wrap3">Хто ми</a>
+            <img src="./photo//images-removebg-preview.png" alt="">
+            <a href="#">Партнери</a>
+            <a href="#">контакти</a>
+            
+            <svg id="burger" class="vbp-header-menu-button__svg">
+                <line x1="0" y1="50%" x2="100%" y2="50%" class="top" shape-rendering="crispEdges" />
+                <line x1="0" y1="50%" x2="100%" y2="50%" class="middle" shape-rendering="crispEdges" />
+                <line x1="0" y1="50%" x2="100%" y2="50%" class="bottom" shape-rendering="crispEdges" />
+              </svg>
+        </header>
+        
+    <div class="containerMusic">   
+        <div class="wave1"></div>
+        <div class="wave2"></div>       
+        <div class="wave3"></div>   
+            <div class="bgBtn">
+                <div class="btn" id="btn">
+                    <i id="icon" class="fa-solid fa-play"></i>
+             </div>
+    </div> 
+</div> 
+<div class="containerInfo">
+        <div class="trackName"></div>
+    <div class="volume">
+       <input class="range" type="range" id="volume" min="0" max="1" step="0.01">
+    </div>
+        <div class="listenersContainer">
+            <div class="listeners"></div>
+        </div>
+     </div>
+    </div>
+
+
+
+
+    <div class="wrap2" id="wrap2">
+        <div class="header2"><h1 style="font-size: 60px;">Розклад</h1></div>
+      
+    <div class="infoContainer">  
+        <div class="infoDiv">
+            <div class="сircle"></div>
+            <div class="text">
+            <h3>Найактуальніші новини міста, громади та країни щогодини!</h3>
+            <h5>З понеділка по п’ятницю ведучі новин Ірина Карвацька та Марія Канцелярист готують актуальні випуски найважливіших подій міста, громади та країни</h5>
+            <h4>Актуальні новини щогодини з <span>8:00</span> до <span>19:00</span></h4></div>
+        </div> 
+        <div class="infoDiv">
+            <div class="сircle"></div>
+            <div class="text">
+            <h3>Ранкове шоу «Не Спати» з Дмитром Дзіковським та Софією Труш!</h3>
+            <h5>Енергійне ранкове шоу з цікавими рубриками, актуальними темами, премʼєрами нових треків та спілкуванням з українськими зірками, що триває з 8:00 до 12:00</h5>
+            <h4>Щобудня з <span>8:00</span> до <span>12:00</span></h4></div>
+        </div> 
+        <div class="infoDiv">
+            <div class="сircle"></div>
+            <div class="text">
+            <h3>Прямі ефіри з міським головою!</h3>
+            <h5>Розмова із міським головою, де мер у прямому ефірі відповідає на ті питання, що найбільше турбують мешканців громади</h5>
+            <h4>Раз на <span>2-3</span> місяці</h4></div>
+        </div>
+        <div class="infoDiv">
+            <div class="сircle"></div>
+            <div class="text">
+            <h3>Проєкт «Янтерв'ю»</h3>
+            <h5>У студію <span>Yantarne.FM</span> кожного тижня приходять представники влади, освіти, здоровʼя, спорту та інших структур громади. А також військові, волонтери, підприємці чи інші цікаві люди громади, які розповідають про себе та свою діяльність у форматі інтерв’ю</h5>
+            <h4>Щотижня у <span>середу</span></h4></div>
+        </div>
+        <div class="infoDiv">
+            <div class="сircle"></div>
+            <div class="text">
+            <h3>Авторські музичні мікси від <span>DJ StasON!</span></h3>
+            <h5>Кожного вечора з понеділка по п'ятницю в ефірі звучать унікальні музичні мікси від <span>DJ StasON.</span> О <span>21:00</span> стартує <span>UKR MIX</span> - ціла година сучасних українських хітів, а о <span>22:00 DANCE MIX</span> - драйвовий музичний сет кращих закордонних хітів</h5>
+            <h4>Щодня з <span>21:00</span> до <span>23:00</span> </h4></div>
+        </div>
+        <div class="infoDiv">
+            <div class="сircle"></div>
+            <div class="text">
+            <h3><span>FDR Media:</span> Топ<span>-10</span> нових українських треків</h3>
+            <h5>Прем'єра Топ<span>-10</span> найсвіжіших українських треків</h5>
+            <h4>Кожної суботи о <span>17:00</span></h4></div>
+        </div>
+        <div class="infoDiv">
+            <div class="сircle"></div>
+            <div class="text">
+            <h3>Проєкт «Слухоманія»</h3>
+            <h5>Кожної неділі українські музиканти представляють нові релізи та музику для своїх прихильників</h5>
+            <h4>Щонеділі о <span>12:00</span></h4></div>
+        </div>
+        <div class="infoDiv">
+            <div class="сircle"></div>
+            <div class="text">
+            <h3>Радіо Чарт Топ<span>-40</span></h3>
+            <h5>Українські музиканти діляться найновішою музикою! Рейтинг найротованіших пісень українського радіопростору</h5>
+            <h4>Кожної неділі о <span>16:00</span></h4></div>
+        </div>
+        <div class="infoDiv">
+            <div class="сircle"></div>
+            <div class="text">
+            <h3>Проєкт «Життя за тебе»!</h3>
+            <h5>Кожної п'ятниці о <span>18:30</span> в ефірі важливий проєкт про історії героїв, які віддали своє життя за Україну</h5>
+            <h4>Щоп'ятниці о <span>18:30</span></h4></div>
+        </div>
+    </div>
+</div>  
+    <div class="wrap3" id="wrap3">
+        <div class="header2"><h1 style="font-size: 60px;">Хто ми</h1></div>
+        <div class="infoText">
+            <h3>Все почалось у 2021 році! Один творчий чоловік на імʼя Андрій Стасишин зібрав команду ентузіастів і заснував перше онлайн радіо рідного міста Новояворівська Yantarne.FM!</h3>
+            <h3>З початком повномасштабного вторгнення, отримали дозвіл від Армії.FM та Національної ради теле- та радіозвʼязку на тимчасове мовлення на частоті 88.9! Щиро дякуємо Армії.FM та Національній раді за довіру!</h3>
+            <h3>З того часу, щодня багато працювали і розвивались! Всього навчились самі, були сміливими мрійниками і всього лише за один рік закріпились як молода, але сильна команда з великими амбіціями!</h3>
+            <p>• Створили сучасну професійну студію! <br>
+            • Маємо нетиповий музичний плейлист, який заходить будь-кому хто вибирає слухати якісне, нове, сучасне і українське! <br>
+            • Знайшли свій динамічний формат ведення етерів! <br>
+            • Готуємо найактуальніші новини та оперативно інформуємо про все найголовніше в громаді! <br>
+            • Робимо ексклюзивні локальні, соціальні, музичні та авторські проєкти! <br>
+            • Знайомимось із кращими українськими артистами, а також підтримуємо молодих і амбітних виконавців!</p> <br>
+            <h3>У грудні 2023 року, ми дійшли до ще однієї з цілей - мовити на власній fm-частоті! Тому сьогодні ти слухаєш радіо рідного міста на 97.6!</h3>
+        </div>
+        <div class="support-button">
+            <span class="icon">☕</span>
+            <span class="text">Підтримай нас</span>
+            <span class="like">
+              <span class="heart">❤</span>
+              <span class="count">2</span>
+            </span>
+          </div>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
